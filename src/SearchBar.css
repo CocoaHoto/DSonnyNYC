@@ -1,0 +1,63 @@
+.SearchBar {
+    display: flex; 
+}
+
+.SearchBarInput {
+    border-radius: 3px 0px 0px 3px;
+    width: 750px;
+    height: 40px;
+    border-color: #2596be;
+    border-width: 0.5px;
+    outline: none;
+    padding-left: 15px;
+    font-family: 'Roboto';
+    font-size: 16px
+}
+
+.SearchBarButton {
+    border-radius: 0px 3px 3px 0px;
+    width: 43px;
+    height: 43px;
+    background-color: #eec643;
+    border-style: none;
+}
+
+.SearchBarInput::placeholder {
+    font: 20px;
+    color: rgb(209, 209, 209);
+}
+
+.SearchBarImage {
+    background-image: url('./SearchButton.svg');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+
+.SearchOptions {
+    justify-content: 'flex-start'; 
+    align-items: 'flex-start';
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.SearchBarWithOptions {
+    flex-direction: 'column';
+    justify-content: 'flex-start';
+    align-items: 'flex-start'; 
+}
+
+.Option {
+    display: flex;
+    color: '#605D64';
+    font-size: 16px; 
+    font-family: 'Roboto';
+    font-weight: '400';
+    word-wrap: 'break-word';
+
+
+    margin: 2px; /* Add some spacing between options */
+    white-space: nowrap; /* Prevent text from wrapping */
+    padding: 2px 8px; /* Optional: add padding for better styling */
+}
+  

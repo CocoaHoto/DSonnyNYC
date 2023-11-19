@@ -1,0 +1,19 @@
+.ShoppingCartImage {
+    background-image: url('./ShoppingCart.svg');
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+}
+
+.Header {
+    display: flex; 
+    margin: 50px
+}
+
+.ShoppingCartButton {
+    background-color: white;
+    width: 43px;
+    height: 43px;
+    border-style: none;
+    margin-left: 30px;
+}
